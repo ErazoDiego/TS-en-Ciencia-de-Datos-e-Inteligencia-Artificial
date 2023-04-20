@@ -5,12 +5,23 @@
 # e imprimir la parte antes de @ en una línea.
 
 
-lista = []
-correo = input("Ingrese correo elecronico: ")
-for i in correo:
-    if i == "@":
+email = input("Ingrese una dirección de correo: ")
+
+for letter in email:
+    if letter == "@":
         break
     else:
-        lista.append(i)
-seleccion = "".join(lista)
-print(seleccion)
+        print(letter, end="")
+
+
+# realisado con listas y metodos
+
+# lista = []
+# correo = input("Ingrese correo elecronico: ")
+# for i in correo:
+#     if i == "@":
+#         break
+#     else:
+#         lista.append(i)
+# seleccion = "".join(lista)
+# print(seleccion)
