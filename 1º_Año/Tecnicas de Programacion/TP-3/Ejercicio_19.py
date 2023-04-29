@@ -6,7 +6,7 @@
 
 
 numero = int(input("Ingrese numero de 1 o 2 digitos: "))
-if numero >= 100:
+if numero >= 100 or numero<=0:
     print("Error de ingreso")
 else:
     if numero >= 10:

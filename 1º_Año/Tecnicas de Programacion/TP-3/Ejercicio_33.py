@@ -11,5 +11,5 @@ for i in range(10):
         notas_mayores += 1
     else:
         notas_menores += 1
-print("Cantidad de aprovados: ", notas_mayores)
-print("Cantidad de desaprovados: ", notas_menores)
+print("Cantidad de aprobados: ", notas_mayores)
+print("Cantidad de desaprobados: ", notas_menores)

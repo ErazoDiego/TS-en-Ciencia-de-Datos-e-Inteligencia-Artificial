@@ -15,7 +15,7 @@
 
 
 dia = int(input("Ingrese dia: "))
-if dia <= 0 or dia > 32:
+if dia <= 0 or dia >= 32:
     print("Error de ingreso")
 else:
     mes = int(input("Ingrese mes: "))
@@ -29,4 +29,4 @@ else:
             else:
                 print("La fecha indicada NO pertenece al primer trimestre del año")
         else:
-            print("La fecha indicada NO pertenece al primer trimestre del año")
+            print("Error de ingreso")
