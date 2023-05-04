@@ -5,13 +5,13 @@
 # y la posición donde se encuentra.
 
 my_list = []
-menor = 999999999
-posicion = 0
 for i in range(0, 5):
     dato = int(input("Ingrese un numero: "))
     my_list.append(dato)
 
-for i in range(len(my_list)):
+menor = my_list[0]
+posicion = 0
+for i in range(1, len(my_list)):
     if my_list[i] < menor:
         menor = my_list[i]
         posicion = i

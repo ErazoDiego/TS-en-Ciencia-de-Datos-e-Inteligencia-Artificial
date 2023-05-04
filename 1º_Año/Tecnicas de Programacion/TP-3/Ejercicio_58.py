@@ -8,11 +8,12 @@
 
 empleados_grupo2 = []
 empleados_grupo1 = []
-for i in range(0, 8):
-    dato = float(input("Ingrese Sueldo: "))
-    if i < 4:
-        empleados_grupo1.append(dato)
-    else:
-        empleados_grupo2.append(dato)
+turno = ""
+for i in range(0, 4):
+    dato = float(input("Ingrese sueldo turno mañana: "))
+    empleados_grupo1.append(dato)
+for i in range(0, 4):
+    dato = float(input("Ingrese sueldo turno tarde: "))
+    empleados_grupo2.append(dato)
 
 print("Empleados Mañana: ", empleados_grupo1, "\nEmpleados Tarde: ", empleados_grupo2)

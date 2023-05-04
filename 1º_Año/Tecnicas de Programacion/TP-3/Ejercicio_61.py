@@ -8,5 +8,4 @@ for i in range(0, 5):
     dato = input("Ingrese un Nombre: ")
     my_list.append(dato)
 my_list.sort()
-my_list.reverse()
 print("\nLista: ", my_list)

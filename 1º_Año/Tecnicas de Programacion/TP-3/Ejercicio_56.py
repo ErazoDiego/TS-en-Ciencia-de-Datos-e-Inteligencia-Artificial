@@ -10,5 +10,6 @@ lista = []
 dato = 1
 while dato != 0:
     dato = int(input("Ingrese un numero: "))
-    lista.append(dato)
+    if dato != 0:
+        lista.append(dato)
 print("Lista: ", lista, "\nTamaño: ", len(lista))
