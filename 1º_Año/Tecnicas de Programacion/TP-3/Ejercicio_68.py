@@ -30,7 +30,7 @@ while intercambio == True:
 
 print("\nPaises:    Habitantes: ")
 for i in range(len(lst_paises)):
-    print("", lst_paises[i], "   ", lst_habitantes[i])
+    print("", lst_paises[i], "      ", lst_habitantes[i])
 intercambio_2 = True
 while intercambio_2 == True:
     intercambio_2 = False
@@ -45,4 +45,4 @@ while intercambio_2 == True:
 
 print("\nPaises:    Habitantes: ")
 for i in range(len(lst_paises)):
-    print("", lst_paises[i], "   ", lst_habitantes[i])
+    print("", lst_paises[i], "      ", lst_habitantes[i])
